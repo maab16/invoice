@@ -1,0 +1,421 @@
+/*
+=====================================================
+					Table of contents
+=====================================================
+
+Example: Type 'ctrl+f' and then 'Portfolio' to jump to the
+ "Portfolio" section. Click 'find' if needed.
+
+1.Header
+2.About Me
+3.Projects
+4.Services
+5.Clients
+6.Portfolio
+7.Twitter Feedback
+8.Partners
+9.Contact
+10.Map
+11.Footer
+12.Owl Carousel
+*/
+/*
+=====================================================
+					Common Colors
+=====================================================
+*/
+strong{
+	color:  #0fb5b3;
+}
+.shutter-lock:after{
+		background-color:  #0fb5b3;
+}
+.overlay{
+	background-color: rgba(35,35,40,0.8);
+}
+.more a{
+	background-color:  #0fb5b3;
+	color: #fff;
+}
+/*
+========================================================
+						1.Header
+========================================================
+*/
+/*=====================Navber===========================*/
+.navbar-inverse{
+	background:#fff;
+}
+.navbar-inverse .navbar-brand{
+	color: #fff;
+}
+.navbar-inverse .navbar-brand:hover{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav li a{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav li a:after{
+	background-color:  #0fb5b3;
+}
+.navbar-inverse .navbar-nav .active a, 
+.navbar-inverse .navbar-nav .active a:focus, 
+.navbar-inverse .navbar-nav .active a:hover{
+	background-color: transparent;
+	color: #fff;
+}
+.affix-top{
+  	background-color: transparent;
+}
+.affix{
+	background-color: #fff;
+  	color: #222;
+}
+.navbar-inverse.affix .navbar-brand,
+.navbar-inverse.affix .navbar-nav li a,
+.navbar-inverse.affix .navbar-nav li a:hover,
+.navbar-inverse.affix .navbar-nav li a:focus{
+	color: #222;
+}
+.navbar-inverse.affix .navbar-nav li a{
+	color: #222;
+}
+.navbar-inverse.affix .navbar-nav li a:hover,
+.navbar-inverse.affix-top .navbar-nav a:hover{
+	color:  #0fb5b3;
+}
+/*========================Slider======================*/
+#slider{
+	color: #222; 
+}
+.slider-overlay{
+	background-color: rgba(34,35,40,0.7);
+}
+.banner-content,
+.slider-content{
+	color: #fff;
+}
+.personal{
+	border-color: #fff;
+}
+.slider-btn{
+	color: #fff;
+	border-color: #fff;
+}
+.slider-btn,
+.slider-btn:hover,
+.slider-btn:focus{
+	color: #fff;
+}
+.slider-btn:hover{
+	border-color: transparent;
+}
+.action-btn{
+	background-color: #0fb5b3;
+}
+.purchase-btn{
+	background-color: #00ccff
+}
+.go-to-btn{
+	border-color: #fff;
+}
+.go-to-btn a{
+	color: #fff;
+}
+/*
+========================================================
+						2.About Me
+========================================================
+*/
+.about-me{
+	background-color: #f7f7f7;
+}
+/*======================About Left=======================*/
+.dl-resume,
+.dl-resume:hover,
+.dl-resume:focus{
+	color: #fff;
+}
+.dl-resume{
+	background-color: #222222;
+}
+/*======================About Right=======================*/
+.skill-percent-container{
+	background-color: #fff;
+}
+.skill-percent-bg,
+.skill-percent-meter,
+.skill-percent-num{
+	background-color:  #0fb5b3;
+}
+.skill-percent-num{
+	color: #fff;
+}
+.skill-percent-num::after{
+	border-top-color:  #0fb5b3;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+/*
+====================================================
+				3.Projects
+====================================================
+*/
+.project-item{
+	color: #fff;
+}
+/*
+========================================================
+						4.Services
+========================================================
+*/
+.services{
+	background-color: #ffffff;
+}
+.services-sub-title{
+	color:  #0fb5b3;
+}
+.single-service-content{
+	
+}
+.single-service-title{
+	color:  #0fb5b3;
+}
+.single-service:hover .single-service-icon{
+	background-color:  #0fb5b3;
+}
+.single-service i{
+	color:  #0fb5b3;
+}
+.single-service:hover i{
+	color: #fff;
+}
+/*
+========================================================
+						5.Clients
+========================================================
+*/
+.clients{
+	color: #fff;
+}
+.client-desc{
+	color: #363636;
+}
+.owl-carousel .owl-item .client-image{
+	border-color:  #0fb5b3;
+}
+/*
+========================================================
+						6.Work
+========================================================
+*/
+.work{
+	background-color: #ffffff;
+}
+.portfolio-controllers .btn-default{
+	color: #808080;
+}
+.portfolio-controllers .filter-btn{
+	background-color: transparent;
+	color: #777777;
+	border-color:  #0fb5b3;
+}
+.portfolio-controllers .filter-btn.active-work{   
+    color: #0fb5b3;
+}
+.portfolio-link li a i{
+	background-color: transparent;
+	color: #fff;
+}
+.portfolio-link li a:hover i.fa-link,
+.portfolio-link li a:hover i.fa-plus{
+	background-color:  #0fb5b3;
+	color: #fff;
+}
+.portfolio-item-title{
+	color: #fff;
+}
+.portfolio-item-title:after{
+	background-color: transparent;
+}
+.caption-content{
+	background-color: rgba(15, 181, 179, .7);
+}
+.ekko-lightbox-nav-overlay a span{
+	color:  #0fb5b3;
+}
+/*
+====================================================
+				7.Team
+====================================================
+*/
+#team{
+	background-color: #f1f1f1;
+}
+.team-item{
+	background-color: #fff;
+	border-color: #e3e3e3;
+}
+.member-caption {
+	/*border-color: #e3e3e3;*/
+}
+.skill-percent{
+	background-color: #b8b8b8;
+}
+.skill-percentage{
+	background-color: transparent;
+	color: #222222;
+}
+.member-caption .team-member-title,
+.team-member-title{
+	color: #222222
+}
+.team-member-name:after{
+	background-color: #0fb5b3;
+}
+.memer-social{
+	background-color: #fff;
+}
+.memer-social ul li a{
+	color: #808080;
+}
+.memer-social ul li a:hover{
+	color: #0fb5b3;
+}
+/*
+========================================================
+						8.Partners
+========================================================
+*/
+.partners{
+	background-color: #fff;
+}
+/*
+========================================================
+						9.Contact
+========================================================
+*/
+.contact{
+	color: #fff;
+}
+.contact-overlay{
+	background-color: rgba(2,2,2,0.5);
+}
+/*===================Contact Info==========================*/
+.contact-info-list li i{
+	background-color: transparent;
+	color:  #0fb5b3;
+}
+.contact-info-list li:hover i{
+	background-color:  #0fb5b3;
+	color: #fff;
+}
+.contact-info-list li address a{
+	color: #fff;
+}
+.contact-info-list li address a:hover{
+	color:  #0fb5b3;
+}
+/*=======================Contact Form=====================*/
+#name,
+#email,
+#website,
+#subject,
+#message{
+	background-color: rgba(5,5,5,0.6);
+	color: #fff;
+	border-color: transparent;
+}
+#name:focus,
+#email:focus,
+#website:focus,
+#subject:focus,
+#message:focus{
+	background-color: rgba(5,5,5,0.3);
+	border-color:  #0fb5b3;
+}
+#submit-btn{
+	background-color: #222222;
+	color: #fff;
+}
+/*
+====================================================
+					10.Map
+====================================================
+*/
+.map-overlay{
+	background-color: rgba(34,35,40, 0.8);
+}
+.map-overlay:hover{
+	background-color: rgba(34,35,40, 0.7);
+}
+.map-overlay i{
+	color: #fff;
+}
+/*
+====================================================
+					11.Footer
+====================================================
+*/
+.footer-top{
+	background-color: #0c0c0c;
+}
+.footer-social li a{
+	color: #fff;
+}
+.footer-social li a:hover{
+	color:  #0fb5b3;
+}
+.footer-bottom{
+	background-color: #191919;
+}
+.copy{
+	color: #c1c1c1;
+}
+.copy a{
+	color: #fff;
+	-webkit-transition : all 0.3s ease;
+	transition : all 0.3s ease;
+}
+.copy a:hover{
+	color:  #0fb5b3;
+}
+/*
+====================================================
+					12.Owl Carousel
+====================================================
+*/
+.owl-dots .owl-dot span{
+	background-color: #fff;
+}
+.owl-dots .owl-dot.active span{
+	background-color:  #0fb5b3;
+}
+/*Xtra Small Device*/
+@media (max-width: 767px){
+	.navbar-inverse .navbar-nav li a, 
+	.navbar-inverse .navbar-nav li a:focus, 
+	.navbar-inverse .navbar-nav li a:hover,
+	.navbar-inverse .navbar-nav .active a, 
+	.navbar-inverse .navbar-nav .active a:focus, 
+	.navbar-inverse .navbar-nav .active a:hover{
+		color: #222;
+	}
+	.navbar-inverse .navbar-nav li a{
+		color: #222;
+	}
+	.navbar-inverse .navbar-collapse{
+		border-color:#e9e9e9;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar{
+		background-color: #222;
+	}
+	.navbar-inverse.affix-top{
+		background-color: #fff;
+		color: #222;
+	}
+	.navbar-inverse .navbar-nav li.active a,
+	.navbar-inverse.affix .navbar-nav li.active a{
+		color:  #0fb5b3;
+	}
+}

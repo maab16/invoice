@@ -1,0 +1,99 @@
+body {
+    background-color: #f1f1f1;
+}
+.add_invoice {
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+}
+.company_info {
+    padding: 15px;
+    background-color: #fff;
+}
+.company_list ,
+.company_list option{
+    width: 100%;
+    padding: 7px;
+}
+.company_name_container,
+.item_name_container {
+    position: relative;
+}
+.company_list_container,
+.item_list_container {
+    position: absolute;
+    z-index: 999;
+}
+.company_list_container ul,
+.item_list_container ul {
+    list-style-type: none;
+    background-color: #f3f3f3;
+    border: 1px solid #e3e3e3;
+    padding: 0px;
+}
+.company_list_container ul li,
+.item_list_container ul li {
+    border-bottom: 1px solid #fff;
+}
+.company_list_container ul li a,
+.item_list_container ul li a{
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+.company_list_container ul li a:hover,
+.item_list_container ul li a:hover{
+    background-color: #fff;
+    color: #222;
+}
+.field {
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 2px;
+}
+.address {
+    height: 120px;
+}
+
+#item_container {
+    padding: 30px 15px 15px;
+}
+
+.add_item {
+
+}
+.add_item thead {
+    padding: 10px 0px;
+}
+.add_item tr td {
+    padding-right: 10px;
+}
+.add_item tr td input{
+    width: 100%;
+}
+
+#add {
+    margin-bottom: 15px;
+}
+
+#notes {
+    height: 120px;
+}
+
+.extra-info {
+    float: right;
+}
+.extra-info label{
+    float: right;
+    line-height: 2.5em;
+}
+
+.extra-info input {
+    width: auto;
+    float: right;
+    margin-left: 10px;
+}
+.invoice-list {
+    padding: 50px 0px;
+}

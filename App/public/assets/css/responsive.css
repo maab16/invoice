@@ -1,0 +1,232 @@
+/*
+ * Responsive CSS
+ * Theme Name   : Persona
+ * Author       : MD. Abu Ahsan Basir
+ * Description  : Persona Multi purpose theme
+ * Version      : 1.0
+ */
+
+/*Xtra Large*/
+@media (min-width: 1600px){
+    #slider{
+        background-size: cover;
+    }
+}
+/*Large Device*/
+@media(min-width:1200px){
+     /*Service*/
+    .service-image-container{
+        height: 354px;
+    }
+}
+/*Medium Device*/
+@media(min-width:992px) and (max-width:1200px){
+    /*Service*/
+    .service-image-container{
+        height: 440px;
+    }
+    .single-service-icon{
+        width: 50px;
+        height: 50px;
+        order: 1;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+}
+/*Small Device*/
+@media(min-width:768px) and (max-width:991px){
+    .navbar > .container .navbar-brand{
+        margin-left: 0px !important;
+    }
+    /*Slider*/
+    .slider-btn{
+        padding: 15px 40px;
+    }
+    /*About Me*/
+    .about-desc{
+        font-size: 14px;
+        padding-bottom: 43px;
+    }
+    .about-sub-title{
+        margin: 10px 0px 15px;
+    }
+    /*Clients*/
+    .client-desc-container{
+        padding: 0px 50px;
+    }
+    /*=======================Services====================*/
+    .single-service-title{
+        font-size: 17px;
+    }
+    .single-service-desc {
+        font-size: 14px;
+    }
+    /*===========================Work======================*/
+    .portfolio-controllers{
+        
+    }
+}
+@media(max-width: 991px){
+    /*Services*/
+    .single-service{
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+      padding: 0px;
+    }
+    .single-service-icon{
+      -webkit-box-ordinal-group: 1;
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    .single-service-content{
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 2;
+      -ms-flex-order: 2;
+      order: 2;
+    }
+    .single-service-desc{
+        padding-top: 10px;
+    }
+    .single-service i{
+        font-size: 22px;
+        
+    }
+    .service-image-container{
+        /*
+        padding-top: 0px;
+        height: 300px;
+        */
+        display: none;
+    }
+}
+/*Xtra Small Device*/
+@media(max-width:767px){
+    /*Nav*/
+
+    .navbar-inverse .navbar-toggle:focus, 
+    .navbar-inverse .navbar-toggle:hover{
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .logo{
+        color: #222222;
+    }
+    .navbar-inverse .navbar-toggle{
+        border-color: transparent;
+    }
+    .navbar-toggle{
+        margin-top: 27px;
+    }
+    .nav{
+        float: left;
+    }
+    .navbar-nav li{
+        height: 45px;
+        line-height: 45px;
+    }
+    .navbar-inverse .navbar-nav li a,
+    .navbar-inverse.affix .navbar-nav li a{
+        height: 45px;
+        line-height: 45px;
+        -webkit-transition : all 0.3s ease;
+        transition : all 0.3s ease;
+    }
+    .navbar-inverse .navbar-nav li a::after{
+        height: 0px;
+    }
+    /*Banner*/
+    .name{
+        font-size: 22px;
+    }
+    .slider-sub-title{
+        font-size: 12px;
+    }
+    .purchase-btn{
+        padding: 15px 25px;
+        margin-top: 15px;
+    }
+    /*About*/
+    .about-right{
+        margin-top: 30px;
+    }
+    .personal-image-container{
+        text-align: left;
+    }
+    .person{
+        max-width: 100%;
+    }
+    /*Projects*/
+    .project-item{
+        margin: 30px 0px;
+    }
+    .project-item .counter{
+        font-size: 45px;
+    }
+    .project-item .project-title{
+        font-size: 15px;
+    }
+    /*Clients*/
+    .clients-title{
+        font-size: 25px;
+    }
+    .client-desc-container{
+        padding: 0px;
+    }
+    /*Contact*/
+    .contact-overlay{
+        width: 100%;
+        top: 325px;
+    }
+    .contact-form{
+        margin-top: 70px;
+    }
+    .contact-form form{
+        padding-left: 0px;
+    }
+    .submit-btn-container{
+        text-align: center;
+    }
+    .contact-title{
+        text-align: center;
+    }
+    /*Twitter*/
+    .twitter-title{
+        font-size: 20px;
+    }
+    .twitter-desc{
+        font-size: 14px;
+    }
+    .twit-options li a{
+        font-size: 13px;
+    }
+    .twitter-container .owl-item{
+        margin : 0px auto;
+    }
+    /*===========================Work======================*/
+    .portfolio-controllers{
+        
+    }
+    .portfolio-controllers .filter-btn{
+        margin-bottom: 15px;
+        padding: 10px 12px;
+        margin-left: 10px;
+    }
+}
+@media(min-width: 520px) and (max-width:767px){
+    .single-service-desc{
+        padding: 15px 130px;
+    }
+}
