@@ -26,7 +26,7 @@ class DB{
 				"host" 		=> 'localhost',
 				"username" 	=> 'root',
 				"password" 	=> '',
-				"dbName" 	=> 'codeigniter',
+				"dbName" 	=> 'invoice',
 				"port" 		=> '3306',
 				"engine"	=> 'InnoDB'
 		));
